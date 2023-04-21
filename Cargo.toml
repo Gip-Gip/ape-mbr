@@ -1,0 +1,18 @@
+[package]
+name = "ape-mbr"
+version = "0.1.0"
+edition = "2021"
+authors = ["Charles Thompson"]
+license = "MIT"
+readme = "README.md"
+keywords = ["mbr", "filesystem", "no_std", "embedded"]
+catagories = ["filesystem", "embedded", "no_std"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-io = "0.4.0"
+
+[dev-dependencies]
+
+embedded-io = { features = ["std"], version = "0.4.0" }
