@@ -8,6 +8,7 @@ readme = "README.md"
 keywords = ["mbr", "filesystem", "no_std", "embedded"]
 catagories = ["filesystem", "embedded", "no_std"]
 description = "simple crate to interface between a disk and it's partitions"
+repository = "https://github.com/Gip-Gip/ape-mbr"
 exclude = [
     "resources/*",
 ]
