@@ -42,7 +42,6 @@ use ape_mbr::{
 };
 
 fn main() {
-    # std::fs::copy("resources/test2.img", "test.img").unwrap();
     // Initialize the MBR
     let img_file = std::fs::OpenOptions::new().read(true).write(true)
         .open("test.img").unwrap();
@@ -67,6 +66,5 @@ fn main() {
         let entry = r.unwrap();
         println!("{}", entry.file_name());
     }
-    # std::fs::remove_file("test.img").unwrap();
 }
 ```
