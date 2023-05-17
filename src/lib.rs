@@ -1,4 +1,8 @@
-//! # *simple crate to interface between a disk and it's partitions*
+//! [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.txt)
+//! [![Crates.io](https://img.shields.io/crates/v/ape-mbr)](https://crates.io/crates/ape-mbr)
+//! [![Documentation](https://docs.rs/ape-mbr/badge.svg)](https://docs.rs/ape-mbr)
+//! [![APE](https://img.shields.io/badge/-APE-%2359118e)](https://openapeshop.org/)
+//! ## *simple crate to interface between a disk and it's partitions*
 //!
 //! This crate is especially designed to provide an interface between a disk
 //! and a file system library, where both are able to implement embedded_io.
